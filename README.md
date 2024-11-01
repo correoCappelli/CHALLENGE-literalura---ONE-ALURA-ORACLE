@@ -12,27 +12,6 @@
 ### https://gutendex.com/?ref=public_apis
 
 
-
-# SUMARIO
-
-
-- [ONE Alura + Oracle](#one-alura--oracle)
-    - [api-literalura](#api-conversordemonedas)
-    - [Instructores](#instructores)
-        - [Ing Bruno Ellerbach](#ing-bruno-ellerbach)
-        - [Ing Genesys Rondon](#ing-genesys-rondon)
-        - [Prof Eric Monné Fraga de Oliveira](#Prof Eric Monné Fraga de Oliveira)
-- [API Gutendex](#API Gutendex)
-    - [https://gutendex.com/?ref=public_apis](#API Gutendex)
-- [SUMARIO](#sumario)
-    - [Introduccion](#introduccion)
-    - [EndPoints](#endpoints)
-    - [URL con todos los codigos de monedas posibles](#url-con-todos-los-codigos-de-monedas-posibles)
-    - [archivo de historial successFECHA.txt](#archivo-de-historial-successfechatxt)
-    - [Variables de Entorno (.Env)](#variables-de-entorno-env)
-    - [EXCEPCIONES](#excepciones)
-
-
 ## Introduccion
 
 Literalura es una aplicacion JAVA + Spring + JPA & JPQL de manejo de base de datos relacional SQL de libros y autores.
