@@ -40,6 +40,17 @@ Se utiliza en conjunto al programa PgAdmin4 (postgreSQL)
 Es un Challenge del programa ONE de ALura y Oracle.
 La API para la obtencion de datos es Gutendex
 
+## Consideraciones
+
+> en las opciones de consola si introducimos valores no numericos se sale del programa
+
+>al buscar un autor vivo en un anio en particular, considerar tambien que el anio no sea menor al de nacimiento
+
+>las relaciones son OneToMany para Persona y de ManyToOne para Libro
+
+>Libro tiene un unico Persona 
+
+
 ## Dependencias
 
 ![dependencias](/imagenes/img.png)
