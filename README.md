@@ -55,7 +55,7 @@ La API para la obtencion de datos es Gutendex
 
 Ejemplo de la respuesta de la busqueda de un libro  :
 
-```json
+```
 {
   "id": <number of Project Gutenberg ID>,
   "title": <string>,
@@ -75,7 +75,7 @@ En nuestro caso utilizaremos un solo autor por libro (OneToMany : un autor tiene
 
 El autor es del tipo Persona
 
-``` json
+``` 
 {
   "birth_year": <number or null>,
   "death_year": <number or null>,
@@ -136,7 +136,7 @@ public void init() {
 
 ```java
 spring.application.name=apilibreria
-spring.datasource.url=jdbc:postgresql://${DB_HOST}/db_literalura
+spring.datasource.url=jdbc:postgresql://${DB_HOST}/${DB_NOMBRE}
 spring.datasource.username=${DB_USER}
 spring.datasource.password=${DB_PASSWORD}
 spring.datasource.driver-class-name=org.postgresql.Driver
